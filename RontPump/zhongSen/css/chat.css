@@ -1,0 +1,26 @@
+﻿
+#chat_main {
+    width:157px;
+    height:165px;
+    position:fixed;
+    background:url(../images/chat/chat_bg.png) no-repeat;
+    top:150px;
+    right:0;
+
+}
+    #chat_main .chat_main_pnl {
+        width:100px;
+        margin: 0 auto;
+        padding:0;
+        margin-top:70px;
+        margin-left:49px;
+        text-align:center;
+    }
+        #chat_main .chat_main_pnl a {
+            width:97px;
+            height:21px;
+            display:block;
+            background:url(../images/chat/menu_bg.png) no-repeat 0 2px;
+            margin:10px auto;
+            padding:0;
+        }

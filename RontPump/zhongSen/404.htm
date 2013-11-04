@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="zh-CN" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <title>404 Not Found</title>
+    <link href="css/404.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="weihu_box">
+            <div class="weihu_bg">
+                <div class="weihu_txt">
+                    您访问的页面不存在！！！
+                    <br /><br />
+                    <a href="http://www.rontpump.com">首页</a>
+                    &nbsp;&nbsp;<a href="javascript:window.windowclose();">关闭</a>
+                    <script type="text/javascript">
+                        function windowclose() {
+                            var browserName = navigator.appName;
+                            if (browserName == "Netscape") {
+                                window.open('', '_self', '');
+                                window.opener = null;
+                                window.close();
+                                window.closeme();
+                                window.parent.top.close();
+                                alert('您的火狐浏览器阻止了此操作\n在地址栏输入about.config 回车，警告确认;\n 将"dom.allow_scripts_to_close_windows"设置为true');
+                            }
+                            else {
+                                if (browserName == "Microsoft Internet Explorer") {
+                                    window.opener = "whocares";
+                                    window.opener = null;
+                                    window.open('', '_top');
+                                    window.close();
+                                }
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

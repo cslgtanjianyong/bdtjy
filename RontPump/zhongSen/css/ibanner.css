@@ -1,0 +1,42 @@
+﻿.indexCon {
+    width: 665px;
+    height:380px;
+    overflow: hidden;
+    background: #fff;
+    margin:0 auto;
+    margin-left:5px;
+}
+
+    .indexCon .flashBanner {
+        width: 665px;
+        height: 380px;
+        overflow: hidden;
+    }
+
+.flashBanner a {
+    width: 665px;
+    height: 259px;
+    margin: 0 auto;
+    padding: 0;
+    clear: both;
+    display: block;
+}
+
+.flashBanner .mask {
+    margin: 0 auto;
+    padding: 0;
+    clear:both;
+}
+
+    .flashBanner .mask img {
+        width: 163px;
+        height: 119px;
+        float:left;
+        margin-left:1px;
+        cursor: pointer;
+        border:1px solid #c1c1c1;
+    }
+
+        .flashBanner .mask img.show {
+            border:1px solid #0465ac;
+        }

@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MPCommon.master.cs" Inherits="zhongSen.template.MPCommon" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>专业生产污水处理设备，五金电镀表面处理设计，尽在隆恩特</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link href="../css/template.css" rel="stylesheet" />
+    <link href="../css/chat.css" rel="stylesheet" />
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--头部-->
+        <div id="header">
+            <div class="header_sub1">
+                <img src="../images/index/logo_tel.png" />
+            </div>
+        </div>
+        <!--主导航-->
+        <div id="nav">
+            <div class="nav_subs">
+                <div class="nav_subs_main">
+                    <a databind="a_index" href="http://www.rontpump.com">公司首页</a>
+                    <a databind="a_intro" href="http://www.rontpump.com/about.html">公司简介</a>
+                    <a databind="a_proct" href="http://www.rontpump.com/products.html">产品中心</a>
+                    <a databind="a_msg" href="http://www.rontpump.com/message.html">在线留言</a>
+                    <a databind="a_news" href="http://www.rontpump.com/newscenter.html">新闻中心</a>
+                    <a databind="a_conct" href="http://www.rontpump.com/contact.html">联系我们</a>
+                </div>
+            </div>
+        </div>
+
+        <!--主页面内容-->
+        <div id="container">
+            <asp:ContentPlaceHolder ID="cph_main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <asp:ContentPlaceHolder ID="cph_links" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <!--底部-->
+        <div id="footer">
+            <p>&nbsp;</p>
+            <span>Copyright &copy; 2013 昆山隆恩特环保科技有限公司 版权所有 主营产品：<a href="http://www.rontpump.com/products-4-1.html">耐酸碱泵</a>，<a href="http://www.rontpump.com/products-4-1.html">化工泵</a>，<a href="http://www.rontpump.com/products-6-1.html">自吸式磁力泵</a>，<a href="http://www.rontpump.com/products-9-1.html">气动双隔膜泵</a> 技术支持：<a href="http://www.ibodan.cn" title="博丹中国">博丹中国</a><script src="http://s96.cnzz.com/stat.php?id=5597518&web_id=5597518&show=pic" language="JavaScript"></script>
+</span>
+            <span>电话：0512-50101606 联系人：叶小姐 手机：13914963981 公司地址：江苏省昆山市开发区洞庭湖路9号</span>
+        </div>
+
+        <!--online chatting start-->
+        <div id="chat_main">
+            <div class="chat_main_pnl">
+                <%--<a href="http://wpa.qq.com/msgrd?v=3&uin=2359970781&site=qq&menu=yes">
+                    <img border="0" src="http://wpa.qq.com/pa?p=2:762432353:41" alt="QQ:2359970781" title="QQ:2359970781" /></a>--%>
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=2359970781&site=qq&menu=yes">销售一部</a>
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=1852620459&site=qq&menu=yes">销售二部</a>
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=1852620459&site=qq&menu=yes">售后服务</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

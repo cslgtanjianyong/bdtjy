@@ -1,0 +1,27 @@
+﻿.wrapper {
+	margin:0 auto;
+	width:950px;
+}
+
+.weihu_box{
+	float:left;
+	width:550px;
+	padding:30px 200px;
+	}
+.weihu_bg{
+	float:left;
+	width:250px;
+	background:url(../images/weihu_bg.gif) no-repeat;
+	height:148px;
+	padding:185px 240px 55px 60px;
+	}
+.weihu_txt{
+	float:left;
+	width:250px;
+	text-align:left;
+	line-height:26px;
+	}
+.weihu_txt a{
+	color:#508D01;
+	text-decoration:underline;
+	}

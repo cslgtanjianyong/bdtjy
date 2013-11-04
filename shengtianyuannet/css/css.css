@@ -1,0 +1,218 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{padding:0; margin:0; font-size:12px; font-family:"宋体"; background:#FFF;}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+input,select{font-size:12px;line-height:16px;}
+img{border:0;}
+ul,li{list-style-type:none;}
+a,a:link,a:visited{color:#333333;font-size:12px;text-decoration:none;}
+a:hover{color:#F00;text-decoration:none;}
+.mb20{margin-bottom:20px;}.mtb10{margin:0 auto;}.mt15{margin-top:15px;}.mb15{margin-bottom:15px;}.mr10{margin-right:10px;}.mr20{margin-right:20px;}.mt20{ margin-top:20px;}
+.ml10{margin-left:10px;}.p10{padding:10px;}.pl10{padding-left:10px;}.pb10{padding-bottom:10px;}.pr10{padding-right:10px;}.pl5{padding-left:5px;}.pr5{padding-right:5px;}.pt10{padding-top:10px;}pb25{padding-bottom:25px;} .mb10{ margin-bottom:10px; }
+.pr10{padding-right:10px;}.plr5{padding:0px 5px;}.tr{text-align:right;}.pr{padding-right:20px;}.tl{text-align:left;}.tc{text-align:center;}.blr{border-left:1px solid #e5e5e5;border-right:1px solid #e5e5e5;}.dis{display:block;}.pl20{padding-left:18px;}
+.undis{display:none;}.fl{float:left;}.fr{float:right;}.pr20{ padding-right:20px;}
+.spacer{clear:both;height:0px;overflow:hidden}
+#situation{width:1004px; margin:0 auto; background:#FFF; height:auto; overflow:hidden;}
+#situation .headtop{ height:50px; background:url(../images/headtop.jpg) no-repeat center;}
+#situation .headtop ul{ height:24px; widows:50px; float:right; margin:20px 20px 0px 0px; line-height:24px;}
+#situation .head{ height:144px; margin:0 auto;}
+#situation .nav{ height:43px; margin:9px 0px; background:url(../images/navbg.jpg) repeat-x center;}
+#situation .nav ul{ height:43px; width:889px; margin:0 auto;}
+#situation .nav ul li{ width:127px; display:block; background:url(../images/nav-tt.jpg) no-repeat right center; float:left; height:43px; line-height:43px; text-align:center;}
+#situation .nav ul li a{ text-align:center; font-size:18px; font-weight:bold; color:#FFF;}
+#situation .nav ul li a:hover{ color:#F00;}
+#situation .banner{ width:1004px; height:270px; margin:0 auto;}
+#situation .banner .banner-pic{ height:260px; margin-bottom:10px;}
+.banner-pic ul{ height:260px; margin:0 auto;}
+.banner-pic ul li{ width:1004px; height:260px;}
+.banner-pic ul li img{ border:none;}
+.banner-pic ul li a{ border:none;}
+/*中间*/
+#situation .middle{ width:1004px; margin:0 auto; overflow:hidden; overflow:hidden; }
+/*第一部分 产品介绍 企业简介 联系我们*/
+#situation .middle .middle1{ width:984px; height:514px; margin:0 auto;}
+.middle1 .middle-left{ width:668px; float:left;}
+.middle1 .middle-left h3{ height:38px; background:url(../images/zhanshi.jpg) no-repeat center center;}
+.middle1 .middle-left h3 span{ padding-left:32px; font-size:16px; font-family:"黑体";font-weight:normal; line-height:38px; color:#2986fa;}
+.middle1 .middle-left ul{ width:668px; margin:0 auto;}
+.middle1 .middle-left ul li{ width:167px; text-align:center; float:left; line-height:30px; padding-top:10px;}
+.middle1 .middle-left ul li span{ width:162px; text-align:center;}
+.middle1 .middle-left ul li span img{ padding:5px 3px; border:2px solid #CCC;}
+.middle1 .middle-right{ width:290px; float:right;}
+
+
+
+.middle-right .jianjie{ height:281px;_height:290px;_overflow:hidden;}
+.middle-right .jianjie h3{ height:38px; background:url(../images/jianjie.jpg) no-repeat left center;}
+.middle-right .jianjie h3 span{ padding-left:32px; font-size:16px; font-family:"黑体";font-weight:normal; line-height:38px; color:#2986fa;}
+.middle-right .jianjie ul{height:190px;width:270px; margin:0 auto; padding-top:10px;}
+.middle-right .jianjie ul span{ float:left;}
+.middle-right .jianjie ul li{ line-height:16px;}
+.middle-right .jianjie ul li a{ color:#39F;}
+.middle-right .jianjie .qq{ height:33px; line-height:33px;_line-hieght:25px;}
+.middle-right .jianjie .qq ul{ width:160px; margin:0 auto;}
+.middle-right .jianjie .qq ul li{ width:80px; text-align:center; float:left;}
+.middle-right .contenct{ height:232px;}
+.middle-right .contenct h3{ height:40px; background:url(../images/contenct.jpg) no-repeat center center;}
+.middle-right .contenct h3 span{ padding-left:32px;font-size:16px; font-family:"黑体";font-weight:normal; line-height:38px; color:#FFF;}
+.middle-right .contenct ul{ width:270px;margin:0 auto;}
+.middle-right .contenct li{ line-height:24px;}
+/*第二部分 保养功略  新闻动态 家具知识 */
+.middle .middle2{ width:984px; height:auto; margin:0 auto; overflow:hidden;}
+.middle .middle2 .upkeep{width:277px; margin-right:76px; height:265px; float:left;}
+.middle .middle2 .upkeep h3{ height:37px; background:url(../images/upthree.jpg) no-repeat left center;}
+.middle .middle2 .upkeep h3 span{ height:37px; font-family:"黑体"; color:#FFF; line-height:37px; padding-left:32px; font-size:16px; font-weight:normal;}
+.middle .middle2 .upkeep ul{ width:277px; margin:10px 0px;}
+.middle .middle2 .upkeep ul li{ line-height:22px;}
+.middle .middle2 .upkeep ul li span{ float:right;}
+/* 友情链接*/
+.middle .lianjie{ width:984px; margin:0 auto; height:auto;}
+.middle .lianjie h3{ height:34px; margin-top:20px; background:url(../images/lian.jpg) no-repeat center center;}
+.middle .lianjie h3 span{ height:34px; line-height:34px; font-family:"黑体"; color:#0b4da2; padding-left:32px; font-size:16px; font-weight:normal;}
+.middle .lianjie ul{width:984px; margin:0 auto; height:auto; }
+.middle .lianjie ul li{ float:left; padding:15px 0px;}
+.middle .lianjie ul li a{ line-height:24px;  padding-right:20px;}
+#situation .bottomnav{ width:1004px; height:41px; margin:0 auto; overflow:hidden; background:url(../images/bottombg.jpg) repeat-x left center;}
+#situation .bottomnav ul{ width:600px; margin:0 auto;}
+#situation .bottomnav ul li{ line-height:41px; color:#408fe2; text-align:center;}
+#situation .bottomnav ul li a{ color:#FFF;}
+#situation .bottomnav ul li a:hover{ color:#F00;}
+
+#situation .footer{ width:1004px; height:140px;}
+#situation .footer ul{ width:968px; margin:0 auto; text-align:center;}
+#situation .footer ul li{ font-size:14px;padding-right:30px; line-height:30px; font-size:12px; }
+#situation .footer ul p{ margin:10px auto; width:650px;}
+#situation .footer ul p a{ padding-left:50px;}
+
+/* 内页面中间部分*/
+#situation  .middle .web_middle{width:984px; margin:0 auto; overflow:hidden;}
+.every_h3{ height:35px; background:url(../images/web_content.jpg) no-repeat center center;}
+.every_h3 span{font-family:"黑体"; color:#FFF; line-height:35px; padding-left:20px; font-size:16px; font-weight:normal;}
+.every_h3_nav{ height:35px; background:url(../images/web_right_bg.jpg) no-repeat center center;}
+.every_h3_nav span{font-family:"黑体"; color:#FFF; line-height:35px; padding-left:20px; font-size:16px; font-weight:normal;}
+
+
+/* ====================================================关于我们==============================================================*/
+.web_middle .gsjj{ width:724px;float:left; height:345px; margin:0 auto;}
+.web_middle .gsjj ul{ width:704px; margin:10px auto;}
+.web_middle .gsjj ul li{ line-height:24px;}
+.web_middle .gsjj ul span{ float:right;}
+.web_middle .hangye{width:240px; height:345px; float:right; margin:0 auto;}
+.xinwenmulu{width:238px; margin:0 auto; border:1px solid #CCC; padding:10px 0px;}
+.xinwenmulu li{ width:228px; margin:0 auto; line-height:25px; border-bottom:1px dashed #CCC;}
+.xinwenmulu li span{ float:right;}
+.middle .qyfc{ width:984px; margin:15px auto; height:270px;}
+.middle .qyfc .fc{ width:722px;float:left; margin:0 auto; border:1px solid #CCC;}
+.middle .qyfc .zp{width:240px; float:right; margin:0 auto;}
+
+.middle .cp{ height:230px; width:982px; margin:0 auto; }
+.middle .cp h3{ height:34px; background:url(../images/lian.jpg) no-repeat center center;}
+.middle .cp h3 span{ height:34px; line-height:34px; font-family:"黑体"; color:#0b4da2; padding-left:32px; font-size:16px; font-weight:normal;}
+.middle .cp ul{height:auto; margin:10px auto; width:982px;}
+.middle .cp ul li{width:238px; float:left; line-height:30px; text-align:center;}
+.middle .cp ul li span{ width:228px; text-align:center;}
+.middle .cp ul span img{ padding:5px 3px; border:2px solid #CCC;}
+
+
+/* ====================================================新闻中心==============================================================*/
+.web_middle .web_news_fenlei{ width:240px; height:auto; float:left; margin:0 auto;}
+/* 新闻分类目录*/
+.web_news_fenlei .news_fenlei{ width:240px; margin:0 auto; height:auto;}
+.news_fenlei ul{height:auto;width:238px; margin:0 auto; border:1px solid #CCC; padding:10px 0px;}
+.news_fenlei ul li{ height:30px; line-height:30px;}
+.news_fenlei ul li a{ padding-left:40px;}
+.web_news_fenlei .product_gundong{ width:240px; margin:10px auto; height:auto;}
+.web_news_fenlei .product_gundong ul{ width:238px; margin:0 auto; border:1px solid #CCC; padding:10px 0px;}
+.web_news_fenlei .product_gundong ul li{height:160px; width:220px; margin:0 auto;}
+.web_news_fenlei .product_gundong ul li img{ border:1px solid #06F;}
+
+
+
+/* 新闻标题目录*/
+.web_middle .web_right{width:724px; float:right; height:auto; margin:0 auto;}
+.web_right .news_mulu{ width:724px; margin:0 auto; }
+.web_middle .news_mulu ul{ height:auto; margin:0 auto; width:694px; padding:10px 0px;}
+.web_middle .news_mulu ul li{ line-height:24px; border-bottom:1px dashed #CCC;}
+.web_middle .news_mulu ul li span{ float:right;}
+.web_middle .fenye{ width:724px; height:30px; margin:0 auto;}
+.fenye ul{ width:694px; margin:0 auto;}
+.fenye ul li{ height:45px; line-height:45px; float:right;}
+/* 友情链接*/
+.middle .bottom-lj{height:auto; width:984px; margin:0 auto;}
+
+
+/*===========================================================产品中心页面======================================================*/
+
+.web_news_fenlei .news_cuxiao{width:240px; margin:10px auto; height:auto;}
+.web_news_fenlei .news_cuxiao ul{width:238px; margin:0 auto; border:1px solid #CCC; padding:10px 0px;}
+.web_news_fenlei .news_cuxiao ul li{ width:228px; margin:0 auto;height:24px; line-height:24px;border-bottom:1px dashed #CCC;}
+.web_news_fenlei .news_cuxiao ul li span{ float:right;}
+.web_right .product_mulu{ width:724px; margin:0 auto; overflow:hidden;}
+.chenpinmulu{height:auto; margin:10px auto; width:692px;}
+.chenpinmulu li{ width:173px; float:left; line-height:30px; text-align:center;}
+.chenpinmulu li span{ width:163px; text-align:center;}
+.chenpinmulu li span img{ padding:5px 3px; border:2px solid #CCC;}
+/*===========================================================家具知识======================================================*/
+
+.web_right .knowledge_every{width:724px; margin:0 auto; overflow:hidden;}
+.knowledge_every .konwledge_zhishi{ width:362px; float:left;}
+.konwledge_zhishi .neirong{ width:322px;}
+.konwledge_zhishi .neirong li{ line-height:24px; height:24px; width:322px; margin:0 auto; }
+.konwledge_zhishi .neirong li span{ float:right;}
+
+
+
+
+/* 在线留言*/
+.web_middle .web_left{ width:240px; height:auto; float:left;}
+.web_middle .web_left ul{width:238px; margin:0 auto; border:1px solid #CCC; padding:10px 0px;}
+.web_middle .web_left ul li{ line-height:24px; padding-left:10px;}
+.web_right .ly{ width:724px; height:auto;  margin:0 auto;}
+.ly .message_table{ width:100%; margin-top:10px; text-align:left; background:none;}
+.message_table td.message_td1{ text-align:right; width:20%; height:28px; line-height:28px; padding-right:3px;}
+.message_table td.message_input{ padding-left:3px;}
+.message_table td.message_input input{ padding:2px; background:url(../small/input.gif) no-repeat left top; border:1px solid #bbb; margin-right:3px;}
+.message_table td.message_text textarea{ margin:3px; width:80%; padding:2px; background:url(../small/input.gif) no-repeat left top; border:1px solid #bbb; }
+.message_table td.message_input input:focus{ border:1px solid #aaa;}
+.message_table td.message_text textarea:focus{ border:1px solid #aaa;}
+.message_submint{ text-align:left; padding:5px 0px; padding-left:145px;}
+.message_submint input{ cursor:pointer;}
+
+
+/*===========================================================联系我们======================================================*/
+.web_right .lxus{ width:724px; height:auto;  margin:0 auto;}
+.web_right .lxus ul{ width:650px; height:350px; margin:0 auto; background:url(../images/lxwm.jpg) no-repeat bottom right;}
+.web_right .lxus ul li{ line-height:35px;}
+/*===========================================================新闻内容======================================================*/
+.web_right .newscontent{width:724px; margin:0 auto;}
+.web_right .newscontent ul{height:auto; margin:0 auto; width:694px; padding:10px 0px;}
+.web_right .newscontent ul h4{ font-size:13px; text-align:center; line-height:24px; border-bottom:#999 1px dashed; margin-bottom:10px;}
+.web_right .newscontent ul h4 p{ font-size:12px; font-weight:normal;}
+.web_right .newscontent ul li{ line-height:24px;}
+/*===========================================================产品信息页面======================================================*/
+
+.web_middle .xinxi{ width:984px; margin:0 auto; height:auto;}
+.web_middle .xinxi h3{ height:50px; background:url(../images/cplittile.jpg) no-repeat;}
+.web_middle .xinxi h3 span{height:50px; line-height:50px; font-family:"黑体"; color:#FFF; padding-left:55px; font-size:16px; font-weight:normal;}
+.web_middle .xinxi h4{height:50px; line-height:50px; font-family:"黑体"; color:#333; padding-left:33px; font-size:18px; font-weight:normal;}
+.web_middle .xinxi ul{ width:984px; margin:0 auto;}
+.web_middle .xinxi ul .tupic{ width:389px; height:247px; float:left;}
+.web_middle .xinxi ul .ljtb{ width:575px; float:left; padding-left:20px;}
+.web_middle .xinxi ul .ljtb li{ float:left; width:150px; height:30px; line-height:30px;}
+.web_middle .xinxi ul .ljtb li span{ margin-right:15px;}
+.web_middle .xinxi ul .ljtb li span img{ margin-top:5px; }
+.web_middle .xinxi ul .ljtb li a{ font-family:"黑体"; color:#333;font-size:18px; font-weight:normal; padding-left:35px;}
+
+
+.middle .cpjs{ width:984px; margin:0 auto; height:auto; padding-top:20px;}
+.middle .cpjs .js_left{ width:675px; float:left; height:auto; margin:0 auto;}
+.middle .cpjs .js_left h3{ height:60px;background:url(../images/cplittile2.jpg) no-repeat left;}
+.middle .cpjs .js_left h3 span{height:60px; line-height:60px; font-family:"黑体"; color:#FFF; padding-left:55px; font-size:16px; font-weight:normal;}
+.middle .cpjs .js_left ul{ width:665px; margin:15px auto; height:auto;}
+.middle .cpjs .js_left ul p{font-family:"黑体"; color:#333;font-size:18px; font-weight:normal; height:35px; line-height:35px;}
+.middle .cpjs .js_left ul li{ line-height:24px;}
+.middle .cpjs .js_right{ width:296px; height:auto; float:right;}
+.middle .cpjs .js_right h3{ height:60px; background:url(../images/cplittle03.jpg) no-repeat left;}
+.middle .cpjs .js_right h3 span{height:60px; line-height:60px; font-family:"黑体"; color:#FFF; padding-left:55px; font-size:16px; font-weight:normal;}
+.middle .cpjs .js_right ul{ width:286px; margin:0 auto;}
+.middle .cpjs .js_right ul li{ line-height:24px;}

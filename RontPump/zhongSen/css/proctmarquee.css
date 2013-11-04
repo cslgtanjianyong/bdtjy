@@ -1,0 +1,114 @@
+﻿
+/*此样式针对产品中心 banner marquee 图*/
+#proct_marq {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    clear: both;
+    position: absolute;
+    bottom: 10px;
+}
+
+    /*轮播图*/
+    #proct_marq #lunbo {
+        width: 100%;
+        height: 154px;
+        float: left;
+        margin: 10px auto;
+        background: #fff;
+        position:relative;
+    }
+        /*轮播图*/
+        #proct_marq #lunbo #period_down {
+            width: 100%;
+            height: 154px;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            position: relative;
+        }
+
+            #proct_marq #lunbo #period_down .rollBox {
+                width: 758px;
+                overflow: hidden;
+                margin: 0px 0px 0px 0px;
+                float: left;
+                height: 156px;
+            }
+
+                #proct_marq #lunbo #period_down .rollBox .Cont {
+                    width: 758px;
+                    overflow: hidden;
+                    margin: 0 auto;
+                }
+
+                #proct_marq #lunbo #period_down .rollBox .ScrCont {
+                    width: 10000000px;
+                }
+
+                #proct_marq #lunbo #period_down .rollBox .Cont .pic {
+                    width: 190px;
+                    float: left;
+                    text-align: center;
+                    position:relative;
+                }
+
+                * + html #proct_marq #lunbo #period_down .rollBox .Cont .pic {
+                    width: 134px;
+                    float: left;
+                    text-align: center;
+                    position:relative;
+                }
+
+                    #proct_marq #lunbo #period_down .rollBox .Cont .pic img {
+                        padding: 0px;
+                        background: #fff;
+                        border: 1px solid #ccc;
+                        display: block;
+                        margin: 0 auto;
+                    }
+
+                    #proct_marq #lunbo #period_down .rollBox .Cont .pic p {
+                        line-height: 26px;
+                        color: #505050;
+                    }
+
+                #proct_marq #lunbo #period_down .rollBox .Cont a:link, .rollBox .Cont a:visited {
+                    color: #626466;
+                    text-decoration: none;
+                }
+
+                #proct_marq #lunbo #period_down .rollBox .Cont a:hover {
+                    color: #f00;
+                    text-decoration: underline;
+                }
+
+                #proct_marq #lunbo #period_down .rollBox #List1, .rollBox #List2 {
+                    float: left;
+                }
+
+            #proct_marq #lunbo #period_down .trunclick {
+                width: 29px;
+                height: 39px;
+                float: left;
+                margin: 20px 0px 0px 0px;
+                cursor: pointer;
+            }
+
+
+            #proct_marq #lunbo #period_down .img {
+                border: 0;
+            }
+
+.titlemarq {
+    width: 207px;
+    height: 28px;
+    background: url(../images/product/product_bg_title.png) no-repeat;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+/*end 轮播图*/

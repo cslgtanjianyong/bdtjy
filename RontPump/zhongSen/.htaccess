@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteCompatibility2 On
+RepeatLimit 200
+RewriteBase 
+# unsupported directive: [ISAPI_Rewrite]
+
+RewriteRule ^/(index\.*) http://www.rontpump.com [R=301,L]
+
+
+
+RewriteRule ^/about\.html /co/introduction\.aspx [NC,N]
+RewriteRule ^/message\.html /co/message\.aspx [NC,N]
+RewriteRule ^/contact\.html /co/contactus\.aspx [NC,N]
+
+RewriteRule ^/newscenter\.html$ /news/news\.aspx [NC,N]
+RewriteRule ^/news\.html$ /news/newslist\.aspx [NC,N]
+RewriteRule ^/news-(\d+)-(\d+)\.html$ /news/newslist\.aspx?type=$1&page=$2 [NC,N]
+RewriteRule ^/news-(\d+)\.html$ /news/shownews\.aspx?id=$1 [NC,N]
+
+
+RewriteRule ^/products\.html /product/products\.aspx [NC,N]
+RewriteRule ^/products-(\d+)-(\d+)\.html$ /product/products\.aspx?ctid=$1&page=$2 [NC,N]
+RewriteRule ^/products-(\d+)\.html$ /product/product\.aspx?id=$1 [NC,N]
+
